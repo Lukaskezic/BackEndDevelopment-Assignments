@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "MUIdTp9C+Hqomjy4uu1YMZJcJrT9nbVKA0yNbWiCG94=",
+  "Source": "Assignment2",
+  "BasePath": "_content/Assignment2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Assignment2\\wwwroot",
+      "Source": "Assignment2",
+      "ContentRoot": "C:\\Users\\Lukas\\OneDrive\\Dokumenter\\GitHub\\BED\\Assignment2\\Assignment2\\Assignment2\\wwwroot\\",
+      "BasePath": "_content/Assignment2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Lukas\\OneDrive\\Dokumenter\\GitHub\\BED\\Assignment2\\Assignment2\\Assignment2\\wwwroot\\index.html",
+      "SourceId": "Assignment2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lukas\\OneDrive\\Dokumenter\\GitHub\\BED\\Assignment2\\Assignment2\\Assignment2\\wwwroot\\",
+      "BasePath": "_content/Assignment2",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

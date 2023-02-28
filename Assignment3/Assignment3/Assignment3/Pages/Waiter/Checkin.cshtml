@@ -1,0 +1,29 @@
+﻿@page
+@model Assignment3.Pages.Waiter.CheckinModel
+@{
+}
+<div class="row-cols-1">
+    <div class="col">
+        <h3>Check in Guests!</h4>
+        <h4>Enter room number and number of guests: </h4>
+        <div>
+            <form method="Post">
+                <div class="m-4">
+                    <div class="m-2">
+                        <label for="ramount" title="Adults">RoomNumber:</label>
+                        <input id="ramount" type="number" asp-for="Input.RoomNumber">
+                    </div>
+                    <div class="m-2">
+                        <label for="aamount" title="Adults">Adults:</label>
+                        <input id="aamount" type="number" asp-for="Input.Adults">
+                    </div>
+                    <div class="m-2">
+                        <label for="camount" title="Children">Children:</label>
+                        <input id="camount" type="number" asp-for="Input.Children">
+                    </div>
+                </div>
+                <button id="reservationSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
+            </form>
+        </div>
+    </div>
+</div>

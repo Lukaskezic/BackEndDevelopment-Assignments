@@ -1,0 +1,45 @@
+﻿@page
+@model Assignment3.Pages.Kitchen.KitchenDataModel
+@{
+}
+<div>
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Input.Date"></label>
+            <input class="form-control" type="date" data-val="true" asp-for="Input.Date" />
+            <span asp-validation-for="Input.Date" class="text-danger"></span>
+            <button type="submit" class="btn btn-primary mt-4 mb-4">Update</button>
+        </div>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Number of guests:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Adults:</td>
+                <td>@Html.DisplayFor(x => x._adultNumber)</td>
+            </tr>
+            <tr>
+                <td>Children:</td>
+                <td>@Html.DisplayFor(x => x._childrenNumber)</td>
+            </tr>
+            <tr>
+                <td>Total:</td>
+                <td>@Html.DisplayFor(x => x._totalNumber)</td>
+            </tr>
+            <tr>
+                <td>Adults checked in:</td>
+                <td>@Html.DisplayFor(x => x._adultsCheckedIn)</td>
+            </tr>
+            <tr>
+                <td>Children checked in:</td>
+                <td>@Html.DisplayFor(x => x._childrenCheckedIn)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/KitchenUpdate.js"></script>

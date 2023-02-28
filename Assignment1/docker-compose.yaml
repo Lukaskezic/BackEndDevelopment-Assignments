@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  api:
+    image:
+      lukaskezic/bakerapi
+    ports:
+      - "6000:80"
+  web:
+    image:
+      lukaskezic/bakerweb
+    ports:
+      - "5000:80"
+    environment:
+      - "API_URL=http://localhost:56290"
